@@ -37,13 +37,10 @@ main .sobre-nos{
     background-color: #004C2E;
 }
 
-main .sobre-nos .col-md-12 h2{
-    color: #BEC8B1;
+main .sobre-nos .col-md-12 h2,p{
+    color: #FFFFFD;
 }
 
-main .sobre-nos .col-md-12 p{
-    color: #bec8b180;
-}
 
 main .sobre-nos .col-md-6 .video{
     margin-top: 5%;
