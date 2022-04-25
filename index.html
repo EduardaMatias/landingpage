@@ -1,12 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
-    
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light text-center">
+            <img src="./assets/img/starbucks-logo.png" alt="Logo do starbucks">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#sobre-nos">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Impacto social</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">Contato</a>
+                    </li>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-fluid" id="home">
+            <div class="row d-flex justify-content-around align-items-center">
+                <div class="col-md-4">
+                    <h1>Starbucks</h1>
+                    <p class="text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint corporis omnis laborum alias rerum! Suscipit excepturi a nemo sint corrupti nobis at architecto natus aspernatur deleniti iste laboriosam, eligendi, nulla, odit expedita doloremque ipsum aperiam ut debitis accusamus laudantium aut.</p>
+                    <button type="button" class="btn" >Login</button>
+                    <button type="button" class="btn">Registre-se</button>    
+                </div>
+                <div class="col-md-4 d-flex justify-content-around align-items-center">
+                    <img src="./assets/img/frappuccino.png" alt="Imagem do produto">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid sobre-nos" id="sobre-nos">
+            <div class="row d-flex justify-content-around align-items-center">
+                <div class="col-md-12">
+                    <h2>Sobre nós</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, facilis. Blanditiis sit possimus sed a tenetur, dolore quod saepe corporis eius rerum commodi aliquam unde necessitatibus fugit. Corporis, dolore! Natus eum earum odio consequatur quam magnam, dicta nemo deserunt recusandae officia aliquam voluptatibus pariatur porro enim neque dolorum eligendi eaque ratione autem tempore vero laudantium sapiente perferendis explicabo! Unde reprehenderit ullam nobis alias totam. Expedita quos nihil ullam ratione nobis dolorum praesentium qui! Dolorem tempore, molestias iusto blanditiis accusantium fugiat, tenetur quae placeat omnis sint, temporibus consectetur quia iure alias excepturi saepe earum! Inventore, repellendus? Blanditiis quibusdam facilis earum voluptas.
+                    </p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-around align-items-center">
+                    <div class="video embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/u3ybWiEUaUU" allowfullscreen></iframe>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!--scripts bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

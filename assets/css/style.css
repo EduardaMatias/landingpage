@@ -1,0 +1,51 @@
+p, h1{
+    text-align: justify;
+}
+
+header nav img{
+    max-height: 30px;
+}
+
+main{
+    margin: 7% 0%;
+}
+
+main .container-fluid .row .col-md-4 img{
+    max-height: 40vw;
+    margin-bottom: 5%;
+}
+
+main .container-fluid .row .col-md-4 h1{
+    color: #004C2E;
+}
+
+main .container-fluid .row .col-md-4 button{
+    background-color: #004C2E;
+    color: #BEC8B1;
+    margin-bottom: 10%;
+    transition: 1s;
+}
+
+main .container-fluid .row .col-md-4 button:hover{
+    background-color: #BEC8B1;
+    color: #004C2E;
+}
+
+main .sobre-nos{
+    height: auto;
+    padding: 5% 5%;
+    background-color: #004C2E;
+}
+
+main .sobre-nos .col-md-12 h2{
+    color: #BEC8B1;
+}
+
+main .sobre-nos .col-md-12 p{
+    color: #bec8b180;
+}
+
+main .sobre-nos .col-md-6 .video{
+    margin-top: 5%;
+    border-radius: 10px;
+}
